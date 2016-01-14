@@ -3,11 +3,11 @@
 var
 	max,
 	PI2 = Math.PI / 2,
-	pinchPerc = 1 / 8,
+	pinchPerc = 1 / 2,
 	HeightPerc = 1 / 4
 ;
 
-api.audio.addVisu(
+api.visualisations.add(
 	"Oscilloscope",
 	function( info ) {
 		var
