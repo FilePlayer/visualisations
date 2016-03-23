@@ -9,8 +9,8 @@ var
 	uniColor = 1
 ;
 
-api.visualisations.add(
-	"Frequence bars",
+ui.visualizerAdd(
+	"Frequence bars", "2d",
 	function( info ) {
 		var
 			magnitude,

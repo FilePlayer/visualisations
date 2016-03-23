@@ -9,8 +9,8 @@ var
 	HeightPerc = 1 / 4
 ;
 
-api.visualisations.add(
-	"Oscilloscope",
+ui.visualizerAdd(
+	"Oscilloscope", "2d",
 	function( info ) {
 		var
 			dat,
