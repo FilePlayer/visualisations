@@ -59,7 +59,7 @@ ui.visualizerAdd(
 
 			ctx.lineJoin = "round";
 			ctx.lineWidth = 1 + Math.round( 3 * max );
-			ctx.strokeStyle = "#fff";
+			ctx.strokeStyle = "rgba(255,255,255," + Math.min( max * 3, 1 ) + ")";
 			ctx.stroke();
 		ctx.restore();
 	}
